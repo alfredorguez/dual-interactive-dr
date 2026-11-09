@@ -1,0 +1,23 @@
+[project]
+name = "dual-didr"
+version = "0.1.0"
+description = "Dual DiDR de ensayos electromecánicos con máquina asíncrona"
+requires-python = "==3.10.*"
+dependencies = [
+    "matplotlib==3.9.2",
+    "bokeh==2.4.3",
+    "scipy==1.14.1",
+    "numpy==1.26.4",
+    "seaborn==0.13.2",
+    "pandas==2.2.3",
+    "scikit-learn==1.5.2",
+    "openTSNE==1.0.2",
+]
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]

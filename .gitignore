@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (heavy)
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Outputs (regenerable)
+# outputs/  # Uncomment to exclude outputs from git
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets / env
+.env
+.env.*
+secrets.json
+
+# Claves de presentación (no versionar)
+*.key
+
+# Notebook y descripción de ensayos (no se publican)
+notebooks/Resultados.ipynb
+data/DescripcionEnsayos.pdf
+
+# Resultados regenerables
+outputs/
+
+# Material de referencia pesado
+docs/AVD_Paper.pdf
+
+# Código legado (heredado del repositorio antiguo, no se versiona)
+src/getData.py
+src/getDataSep.py
+src/crearEspectogramas.py
+
+# Tests
+.pytest_cache/
+
+# Claude Code instructions (local only)
+CLAUDE.md
+.claude/
