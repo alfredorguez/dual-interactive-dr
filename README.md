@@ -50,6 +50,10 @@ The image copies `src/` and `data/` at build time, so `data/dataicann.mat` must 
 
 ## Using the application
 
+The application follows the dual interactive dimensionality reduction approach: the user labels a group of samples in the primal (sample) space, the dual (feature) space is reorganized and analyzed to find the features that discriminate that group, and the result is validated back on the samples.
+
+![Dual DiDR approach](docs/img/DiDR_Approach.png)
+
 1. Adjust `perplexity` and `learning_rate (log)` for each view; t-SNE is optimized live.
 2. Select points in a view with the lasso: they are listed in the text boxes (*selected samples/features*).
 3. Click **use selected features & samples** to recompute the projection conditioned on that selection; **reset projections** returns to the initial PCA.
