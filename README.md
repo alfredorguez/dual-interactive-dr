@@ -54,6 +54,10 @@ The application follows the dual interactive dimensionality reduction approach: 
 
 ![Dual DiDR approach](docs/img/DiDR_Approach.png)
 
+A video demonstration of the application is available on YouTube:
+
+[![Dual DiDR video demo](https://img.youtube.com/vi/OvYsCFFwwH0/hqdefault.jpg)](https://www.youtube.com/watch?v=OvYsCFFwwH0)
+
 1. Adjust `perplexity` and `learning_rate (log)` for each view; t-SNE is optimized live.
 2. Select points in a view with the lasso: they are listed in the text boxes (*selected samples/features*).
 3. Click **use selected features & samples** to recompute the projection conditioned on that selection; **reset projections** returns to the initial PCA.
